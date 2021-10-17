@@ -1,5 +1,6 @@
-# JavaScript solution to the Leetcode: Maximum-Subarray-with-One-Deletion
+# My Two JavaScript solutions to the Leetcode: Maximum-Subarray-with-One-Deletion
 # Kadane's Algorithm 
+# DP
 
 
 
