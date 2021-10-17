@@ -1,4 +1,5 @@
-# My JavaScript solution to the Leetcode: Maximum-Subarray-with-One-Deletion, in O(n) time, O(1) space 
+# JavaScript solution to the Leetcode: Maximum-Subarray-with-One-Deletion
+# Kadane's Algorithm DS used
 
 
 
