@@ -8,8 +8,8 @@ var maximumSum = (arr) => {
             maxWithOneDeletion = arr[0],
             maxOverall = arr[0];
         for (let i = 1; i < arr.length; i++) {    //Essentially, if there are no deletions that occur, then the max sum at postion i is equal to max of the maximum sum at positon i - 1 or starting a new sum at position i
-            let numToProcess = arr[i],     //Notice that dp is subscripted from 1 to n, hence we take arr[i-1] in the for loop
-                nextMaxWithNoDeletions =      //If there is 1 deletion we have 2 choices either delete the element at position i or not delete the element at position i. If we delete the element at position i , dp[i][1] = dp[i-1][0] . If we don't delete the element at position i we add the value of the element at position i 
+            let numToProcess = arr[i],     
+                nextMaxWithNoDeletions =      
                     Math.max(maxWithNoDeletions + numToProcess, numToProcess),
                 nextMaxWithOneDeletion =
                     Math.max(maxWithOneDeletion + numToProcess, maxWithNoDeletions);
