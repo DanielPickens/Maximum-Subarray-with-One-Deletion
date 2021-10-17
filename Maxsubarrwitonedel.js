@@ -2,10 +2,7 @@
 //Time Complexity: O(n)  
 //Space Complexity: O(1)
 
-/*
-dp[i][0] represents the maximum sum at position i with 0 deletions
-           dp[i][1] represents the maximum sum at position i with 1 deletions 
-*/
+
 var maximumSum = (arr) => {
     let maxWithNoDeletions = arr[0],
             maxWithOneDeletion = arr[0],
