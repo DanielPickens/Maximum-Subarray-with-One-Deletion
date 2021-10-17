@@ -1,5 +1,5 @@
 # JavaScript solution to the Leetcode: Maximum-Subarray-with-One-Deletion
-# Kadane's Algorithm DS used
+# Kadane's Algorithm 
 
 
 
