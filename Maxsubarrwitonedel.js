@@ -1,4 +1,4 @@
-//Dynamic Programming method
+//Dynamic Programming 
 //Time Complexity: O(1)
 var maximumSum = (arr) => {
     let maxWithNoDeletions = arr[0],
