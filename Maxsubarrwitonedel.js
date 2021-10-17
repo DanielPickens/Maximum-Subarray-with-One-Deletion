@@ -36,7 +36,7 @@ Memory Usage: 43.1 MB, less than 97.44% of JavaScript online submissions for Max
 
 //2nd solution: Using Kadanes Algorithm:
 
-const maximumSum = function(arr) {
+const maximumSum = (arr) => {
   if (arr.length == 1) {
 			return arr[0];
 		}
